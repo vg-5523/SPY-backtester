@@ -29,7 +29,3 @@ This strategy is not a return-maximizer — it's a **risk-reducer**. It systemat
 In practice, a strategy like this would need either:
 - A trend filter to avoid trading in choppy/low-volatility regimes, or
 - A longer-term crossover (e.g., 50/200) to reduce whipsaw frequency, at the cost of even more lag in bull markets
-
-## Takeaway for MAIF
-
-The interesting story isn't "the strategy works" — it's that **a simple trend-following rule trades return for downside protection, and fails specifically in sideways markets.** That's the kind of regime-dependent behavior real quant strategies have to account for, and exactly why single-year backtests are misleading.
